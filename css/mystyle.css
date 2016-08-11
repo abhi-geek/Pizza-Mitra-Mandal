@@ -1,0 +1,32 @@
+.body 
+{
+    font-family:sans-serif;
+	color:#000;
+    margin-top: 50px; 
+    background: url("/home/student/2014/7387/Desktop/WT/pizza/bootstrap-3.3.7-dist/img/back.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.logo
+{
+	margin-bottom:20px;
+}
+
+.body img
+{
+	 opacity:100%;
+}
+
+.row1
+{
+	margin-top:50px;
+}
+
+#font_title
+{
+	color:White;
+	//face:"Trajan"; 
+}
