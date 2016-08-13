@@ -1,32 +1,104 @@
-.body 
-{
-    font-family:sans-serif;
-	color:#000;
-    margin-top: 50px; 
-    background: url("/home/student/2014/7387/Desktop/WT/pizza/bootstrap-3.3.7-dist/img/back.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
+
 
 .logo
 {
 	margin-bottom:20px;
 }
-
-.body img
-{
-	 opacity:100%;
+.row2{
+	background-image:url(../image/back.jpg)norepeat;
+	background-attachment:static;
+}
+#carousel-example-generic{
+	margin-top:800px;
+	margin-bottom:70px;
+	height:200px;
+	width:935px;
 }
 
-.row1
-{
-	margin-top:50px;
-}
+
 
 #font_title
 {
 	color:White;
 	//face:"Trajan"; 
 }
+body{
+	font-family:sans-serif;
+    padding:0px 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar-inverse {
+     background: #373435;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background: #767778;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+ .navbar-inverse .navbar-nav > .open > a:hover,
+ .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background: #767778;
+}
+
+
+
+
+.row-content {
+    margin:0px auto;
+    padding: 20px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+.row-footer{
+    background-color: #373435;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+
+
+address{
+    font-size:80%;
+    margin:0px;
+    color:#fff;
+}
+
+.carousel {
+    background:#1A237E;
+}
+.carousel .item {
+  height: 550px;
+}
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+	min-width: 900px;
+}
+#tag{
+color:#fff;
+}
+#heading{
+    display: block;
+    margin-top: 1px;
+    margin-bottom: 1em;
+    margin-left: 10px;
+}
+.type{
+	color:#49bad5 ;
+}
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
